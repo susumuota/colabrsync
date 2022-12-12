@@ -1,9 +1,19 @@
 [tool.poetry]
 name = "colabrsync"
-version = "0.1.0"
-description = "Run rsync periodically on background on Google Colab."
+version = "0.2.0"
+description = "Run rsync periodically in the background on Google Colab."
+license = "MIT"
 authors = ["Susumu OTA <1632335+susumuota@users.noreply.github.com>"]
 readme = "README.md"
+repository = "https://github.com/susumuota/colabrsync"
+keywords = ["rsync", "colab", "Google Colab"]
+classifiers = [
+  "Topic :: Software Development :: Libraries",
+  "Topic :: System :: Archiving",
+  "Topic :: System :: Archiving :: Backup",
+  "Topic :: System :: Archiving :: Mirroring",
+  "Topic :: Utilities"
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
