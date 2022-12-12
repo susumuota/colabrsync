@@ -1,6 +1,6 @@
 # colabrsync
 
-Run rsync periodically on background on Google Colab.
+Run rsync periodically in the background on Google Colab.
 
 ## Usage
 
