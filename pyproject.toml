@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "colabrsync"
+version = "0.1.0"
+description = "Run rsync periodically on background on Google Colab."
+authors = ["Susumu OTA <1632335+susumuota@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+pylint = "^2.15.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
